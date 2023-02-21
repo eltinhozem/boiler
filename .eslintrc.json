@@ -1,11 +1,13 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true,
+    "node": true
   },
-  "settings":{
-    "react":{
-      "version":"detect"
+  "settings": {
+    "react": {
+      "version": "detect"
     }
   },
   "extends": [
@@ -24,13 +26,12 @@
     "react-hooks",
     "react",
     "@typescript-eslint"
-     
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/prop-types" :"off",
-    "react/react-in-jsx-scope":"off",
-    "@typescript-eslint/explicit-module-boundary-types":"off"
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }
