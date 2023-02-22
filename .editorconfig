@@ -1,22 +1,10 @@
-# Configuração raiz do projeto
+# editorconfig.org
 root = true
 
-# Configurações padrão para todo o projeto
 [*]
-# Estilo de identação: espaços
-indent_style = spaces
-
-# Tamanho da identação: 2 espaços
+indent_style = space
 indent_size = 2
-
-# Formato de quebra de linha: LF (Unix)
 end_of_line = lf
-
-# Conjunto de caracteres a ser utilizado: UTF-8
 charset = utf-8
-
-# Remover espaços em branco no final de cada linha
 trim_trailing_whitespace = true
-
-# Inserir uma nova linha no final do arquivo
 insert_final_newline = true
